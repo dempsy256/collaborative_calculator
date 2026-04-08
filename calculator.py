@@ -21,6 +21,10 @@ def get_numbers():
     return numbers
 
 
+def add_numbers(numbers):
+    pass
+
+
 def main():
     """Main function to run the calculator."""
     print("=" * 50)
@@ -39,7 +43,6 @@ def main():
     choice = input("Enter your choice (1 or 2): ")
 
     # operations will be implemented by
-
     if choice == '1':
         print("Addition feature coming soon")
         # TODO: Sharifa to implement this
